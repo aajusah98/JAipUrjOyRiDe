@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about"
+    android:background="@drawable/back"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajasthan's beautiful Pink City Jaipur, was the stronghold of a clan of rulers whose three hill forts and series of palaces in the city areimportant attractions. Known as the Pink City because of the colours of the stone used exclusively in the walled city,Jaipur's bazaars sell embroidered leather shoes,blue potery,tie and dye scarves and other exotic wares.The city was planned according to Indian Vastu shastra .the city has three gates :- SURAJ POL,CHAND POL,AMER."
+            android:textSize="25dp"
+            android:textColor="#0000FF"
+            />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

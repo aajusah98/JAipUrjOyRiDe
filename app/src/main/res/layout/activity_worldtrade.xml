@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".worldtrade"
+    android:background="#FFFF4081">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORLD TRADE PARK"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WTP or World Trade Park Jaipur is the new Found attraction of the Royal Pink City, Jaipur. Though everybody loves the royal Historic Jaipur but still if you want to have the experience of something less historic, more modern, then WTP is the best choice for you."
+            android:textSize="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address:- "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Malviya Nagar, Jaipur"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wtp"
+            android:layout_marginBottom="100dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

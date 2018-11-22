@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".attractions"
+    android:background="@drawable/new1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:background="#FFA5FF87"
+            android:onClick="e"
+            android:text="AMER FORT"
+            android:textSize="38dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFA5FF87"
+            android:onClick="f"
+            android:text="NAHARGARH FORT"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFA5FF87"
+            android:onClick="g"
+            android:text="JANTAR MANTAR"
+            android:textSize="38dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#FFA5FF87"
+            android:onClick="h"
+            android:text="JAL MAHAL"
+            android:textSize="38dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
